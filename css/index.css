@@ -1,0 +1,41 @@
+section {
+  width: 30vw;
+  height: 50vh;
+  background-color: #ebebeb;
+  position: absolute;
+  margin-left: 33%;
+  margin-top: 12%;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 3em;
+  height: 10vh;
+  line-height: 1.5em;
+  color: white;
+  margin-top: 0;
+  background-color: #5cd8a5;
+}
+input,
+textarea {
+  padding-left: 10px;
+  width: 25vw;
+  height: 4vh;
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+}
+textarea {
+  padding-top: 10px;
+  height: 7vh;
+  margin-bottom: 4vh;
+}
+input[type="submit"] {
+  height: 5vh;
+  background-color: #5cd8a5;
+  color: white;
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+  font-weight: bolder;
+}
